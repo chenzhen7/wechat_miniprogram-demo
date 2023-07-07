@@ -1,0 +1,7 @@
+<view class="container">
+  <view>手机品牌：{{brand}}</view>
+  <view>手机型号：{{model}}</view>
+  <view>操作系统版本：{{system}}</view>
+  <view>屏幕宽度：{{screenWidth}}px</view>
+  <view>屏幕高度：{{screenHeight}}px</view>
+</view>

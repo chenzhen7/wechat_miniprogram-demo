@@ -1,0 +1,45 @@
+
+
+ 
+ /*Text*/
+ .text-title {
+  /* font-weight: bold; */
+  font-weight: 500;
+  display: -webkit-box;
+  /* -webkit-box-orient: vertical; */
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 5px 0;
+  text-align: left;
+  font-size: 1.0em !important;
+  position: relative;
+}
+ .text-body {
+  font-size: 28rpx !important;
+  color: #999;
+  /* padding-bottom: 10px; */
+ }
+
+ .text-icon{
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+ }
+ 
+ .card{
+   background-color:#f7f8fa;
+   border-radius: .3rem;
+   padding: 10rpx 20rpx 25rpx 20rpx;
+   margin-bottom: 20rpx;
+   /* margin: 10rpx; */
+ }
+
+ .category{
+  font-weight: 500;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+  font-size: 40rpx;
+
+ }

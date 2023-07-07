@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="chat-log">
+    <block wx:for="{{messages}}" wx:key="index">
+      <view class="message user" wx:if="{{item.type === 'user'}}">{{item.text}}</view>
+      <view class="message-response" wx:else>{{item.text}}</view>
+    </block>
+  </view>
+  <view class="input-bar">
+    <input class="input-field" placeholder="输入消息" bindinput="handleInput" value="{{inputValue}}"/>
+    <button class="send-button" bindtap="sendMessage">发送</button>
+  </view>
+</view>

@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+  padding: 10px;
+}
+
+.chat-log {
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  align-self: flex-end; /* 设置消息块在屏幕的右边 */
+}
+
+.message-response {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #cfe6ff;
+  align-self: flex-start; /* 设置回复消息在屏幕的左边 */
+}
+
+.input-bar {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.input-field {
+  flex-grow: 1;
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+}
+
+.send-button {
+  margin-left: 10px;
+  padding: 0 16px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 18px;
+  background-color: #007bff;
+  color: #fff;
+}

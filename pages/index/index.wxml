@@ -1,0 +1,56 @@
+<view style="padding: 20rpx;">
+  <!-- 上边框 -->
+<view class="van-hairline--top"></view>
+  <view class="category"><van-icon name="label-o" /> 分类</view>
+  <!-- 下边框 -->
+  
+    <van-row gutter="10" >
+      <van-col span="24">
+        <view class="card">
+          <view class="text-title">添加注释 <van-icon class="text-icon" name="guide-o" /></view>
+          <view class="van-multi-ellipsis--l3 text-body" >
+            您是一位优秀的软件工程师，现在您需要给以下代码添加注释。请根据代码的功能和结构为每个关键部分添加有意义的
+          注释，以帮助其他开发人员理解和维护该代码。请注意，代码中可能存在一些复杂的逻辑和算法。使用markdown语法输出。
+          </view>
+        </view>
+    </van-col>
+
+    <van-col span="12">
+      <view class="card">
+        <view class="text-title">添加注释  <van-icon class="text-icon" name="guide-o" /></view>
+        <view class="van-multi-ellipsis--l3 text-body" >
+          您是一位优秀的软件工程师，现在您需要给以下代码添加注释。请根据代码的功能和结构为每个关键部分添加有意义的
+        注释，以帮助其他开发人员理解和维护该代码。请注意，代码中可能存在一些复杂的逻辑和算法。使用markdown语法输出。
+        </view>
+      </view>
+    </van-col>
+
+    <van-col span="12">
+      <view class="card">
+        <view class="text-title">添加注释  <van-icon class="text-icon" name="guide-o" /></view>
+        <view class="van-multi-ellipsis--l3 text-body" >
+          您是一位优秀的软件工程师，现在您需要给以下代码添加注释。请根据代码的功能和结构为每个关键部分添加有意义的
+        注释，以帮助其他开发人员理解和维护该代码。请注意，代码中可能存在一些复杂的逻辑和算法。使用markdown语法输出。
+        </view>
+      </view>
+    </van-col>
+
+    <van-col span="12">
+      <view class="card">
+        <view class="text-title">添加注释  <van-icon class="text-icon" name="guide-o" /></view>
+        <view class="van-multi-ellipsis--l3 text-body" >
+          您是一位优秀的软件工程师，现在您需要给以下代码添加注释。请根据代码的功能和结构为每个关键部分添加有意义的
+        注释，以帮助其他开发人员理解和维护该代码。请注意，代码中可能存在一些复杂的逻辑和算法。使用markdown语法输出。
+        </view>
+      </view>
+    </van-col>
+  </van-row>
+  <view class="van-hairline--bottom"></view>
+
+
+</view>
+
+    
+ 
+
+    

@@ -1,0 +1,10 @@
+<!-- index.wxml -->
+<view class="container">
+  <camera id="camera" wx:if="{{cameraContext}}" style="width: 100%; height: 100%;" binderror="onCameraError" bindstop="onCameraStop"></camera>
+  <view class="button-container">
+    <view class="photo-button" bindtap="takePhoto"></view>
+  </view>
+  <view class="preview-container">
+    <image class="preview-photo" wx:if="{{photoUrl}}" src="{{photoUrl}}" bindtap="previewPhoto"></image>
+  </view>
+</view>
